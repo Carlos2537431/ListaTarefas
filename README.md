@@ -12,4 +12,4 @@ Instalação:
 Funcionamento e Objetivo:
 Esse projeto foi pensado para te auxiliar na organização do seu dia a dia podendo adicionar tarefas marcar como concluida e excluir.
 
-Video Explicativo:
+Video Demonstrativo:https://youtu.be/Of_LZUDmF58
