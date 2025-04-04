@@ -2,7 +2,7 @@
 
 Instalação:
 
-1.Realizar o clone do arquivo em seu terminal utilizando o comando:https://github.com/Carlos2537431/ListaTarefas.git
+1.Realizar o clone do arquivo em seu terminal utilizando o comando:git clone https://github.com/Carlos2537431/ListaTarefas.git
 
 2.Entrar no repositório clonado e rodar npm install e npm fund para instalação dos modulos (necessita conexão com a internet)
 
