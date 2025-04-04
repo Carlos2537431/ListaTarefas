@@ -13,24 +13,7 @@ function ListaTarefas() {
 
     const [ordenacao, setOrdenacao] = useState("data"); 
     // Estado que controla o critério de ordenação das tarefas. Inicialmente, é "data".
-
-    useEffect(() => {
-        const tarefasSalvas = localStorage.getItem("tarefas");
-        // Recupera as tarefas salvas no localStorage.
-
-        if (tarefasSalvas) {
-            setTarefas(JSON.parse(tarefasSalvas));
-            // Se houver tarefas salvas, atualiza o estado 'tarefas' com os dados recuperados.
-        }
-    }, []);
-    // Este useEffect é executado apenas uma vez, ao montar o componente.
-
-    useEffect(() => {
-        localStorage.setItem("tarefas", JSON.stringify(tarefas));
-        // Sempre que o estado 'tarefas' for atualizado, salva as tarefas no localStorage.
-    }, [tarefas]);
-    // Este useEffect é executado sempre que o estado 'tarefas' mudar.
-
+    
     const adicionarTarefa = () => {
         if (novaTarefa.trim() !== "") {
             // Verifica se o texto da nova tarefa não está vazio.
